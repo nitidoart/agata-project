@@ -1,6 +1,6 @@
 .navbar {
     padding: 2rem;
-    background-color: #f5f6f7;
+    background-color: #E6E6E6;
 }
 
 .navbar-collapse {
@@ -8,55 +8,89 @@
     justify-content: space-between;
 }
 
+.imagen-nav {
+    border-radius: 20% 20% 50% 50%;
+    width: 40px;
+}
+
 /* Estilos generales */
-section{
+section {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-h1{
+h1 {
     font-size: 2.5rem;
+}
 
+.seccion-titulo {
+    font-size: 3rem;
+    padding: 15px 0;
+    font-family: "Sacramento", cursive;
+}
+
+.seccion-texto {
+    font-size: 1.2rem;
 }
 
 /* Seccion Hero */
-.hero{
-background-color: #f5f6f7;
-min-height: 450px;
-text-align: center;
+.hero {
+    background-color: #f5f6f7;
+    min-height: 450px;
+    text-align: center;
 }
 
 .hero-principal {
     padding: 3rem;
 }
 
-.hero-imagen-perfil{
+.hero-imagen-perfil {
     width: 150px;
     margin: 20px;
 }
 
-.hero-principal h1{
-    font-size: 3.5rem;
+.hero-principal h1 {
+    font-size: 4.5rem;
     color: #615151;
     font-family: "Sacramento", cursive;
     font-weight: 400;
     font-style: normal;
 }
 
-.hero-principal h2{
+.hero-principal h2 {
     font-size: 1.5rem;
     color: rgb(41, 41, 41);
-    
 }
+
+.hero-inferior img {
+    max-width: 400px;
+}
+
+.seccion-oscura {
+    color: white;
+    background-color: #091123;
+}
+
+.sobre-mi {
+    height: 500px;
+    padding: 10px;
+}
+
+.sobre-mi .contenedor {
+    max-width: 600px;
+    text-align: center;
+}
+
+
 
 /* .sacramento-regular {
     font-family: "Sacramento", cursive;
     font-weight: 400;
     font-style: normal;
   } */
-  
+
 /* Adaptable (responsive) */
 @media screen and (max-width: 767px) {
     .navbar-brand {
@@ -67,8 +101,8 @@ text-align: center;
     }
 }
 
-@media screen and (min-width: 700px) {
-    .hero-inferior-imagen{
-        max-width: 600px;
+ @media screen and (max-width: 576px) {
+    .hero-inferior img{
+        width: 80%;
     }
 }
