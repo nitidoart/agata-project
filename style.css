@@ -8,11 +8,67 @@
     justify-content: space-between;
 }
 
+/* Estilos generales */
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 2.5rem;
+
+}
+
+/* Seccion Hero */
+.hero{
+background-color: #f5f6f7;
+min-height: 450px;
+text-align: center;
+}
+
+.hero-principal {
+    padding: 3rem;
+}
+
+.hero-imagen-perfil{
+    width: 150px;
+    margin: 20px;
+}
+
+.hero-principal h1{
+    font-size: 3.5rem;
+    color: #615151;
+    font-family: "Sacramento", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.hero-principal h2{
+    font-size: 1.5rem;
+    color: rgb(41, 41, 41);
+    
+}
+
+/* .sacramento-regular {
+    font-family: "Sacramento", cursive;
+    font-weight: 400;
+    font-style: normal;
+  } */
+  
+/* Adaptable (responsive) */
 @media screen and (max-width: 767px) {
     .navbar-brand {
         /* display: none; */
         align-items: center;
         justify-content: space-between;
         margin: 0;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .hero-inferior-imagen{
+        max-width: 600px;
     }
 }
