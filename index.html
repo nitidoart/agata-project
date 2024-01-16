@@ -106,33 +106,88 @@
                         <span class="badge text-bg-info">Info</span>
                         <span class="badge text-dark custom-bg-color">Warning</span>
                         <span class="badge text-bg-secondary">Secondary</span>
+                    </div>
                 </div>
-            </div>
-            <!-- Experiencia tres -->
-            <div class="columna col-12 col-md-4">
-                <img src="img/queso.png" alt="queso">
-                <p class="experiencia-titulo">Portal Estelar</p>
-                <p>En sus largas horas de sueño, realmente se sumergía en los misterios que trasciende las fronteras del
-                    tiempo. Su cuerpo se convertía en un portal hacia los enigmas del universo, explorando mundos
-                    lejanos y descifrando los secretos que solo ella podría revelar.</p>
+                <!-- Experiencia tres -->
+                <div class="columna col-12 col-md-4">
+                    <img src="img/queso.png" alt="queso">
+                    <p class="experiencia-titulo">Portal Estelar</p>
+                    <p>En sus largas horas de sueño, realmente se sumergía en los misterios que trasciende las fronteras
+                        del
+                        tiempo. Su cuerpo se convertía en un portal hacia los enigmas del universo, explorando mundos
+                        lejanos y descifrando los secretos que solo ella podría revelar.</p>
 
-                <div class="badges">
-                    <span class="badge text-dark custom-bg-color">Warning</span>
-                    <span class="badge text-bg-secondary">Secondary</span>
-                    <span class="badge text-bg-info">Info</span>
+                    <div class="badges">
+                        <span class="badge text-dark custom-bg-color">Warning</span>
+                        <span class="badge text-bg-secondary">Secondary</span>
+                        <span class="badge text-bg-info">Info</span>
+                    </div>
                 </div>
             </div>
-        </div>
         </div>
 
     </section>
 
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+        <h2 class="seccion-titulo texto-negro">Diario de una gata viajera</h2>
+        <h3 class="seccion-descripcion">Estos son algunos momentos de su aventura en el planeta azul...</h3>
+        <!-- Galeria de Proyectos -->
+        <div class="container text-center proyectos-contenedor">
+            <div class="contenedor-proyectos">
+                <!-- Proyecto 1 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img class="foto" src="img/betulla-1.jpg" alt="Proyecto 1" onclick="handleImageClick(this)">
+                    </div>
+                </div>
+                 <!-- Proyecto 1 -->
+                 <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img class="foto" src="img/betulla-2.jpg" alt="Proyecto 1" onclick="handleImageClick(this)">
+                    </div>
+                </div>
+                 <!-- Proyecto 1 -->
+                 <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img class="foto" src="img/betulla-3.jpg" alt="Proyecto 1" onclick="handleImageClick(this)">
+                    </div>
+                </div>
+                 <!-- Proyecto 1 -->
+                 <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img class="foto" src="img/betulla-4.jpg" alt="Proyecto 1" onclick="handleImageClick(this)">
+                    </div>
+                </div>
+                 <!-- Proyecto 1 -->
+                 <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img class="foto" src="img/betulla-5.jpg" alt="Proyecto 1" onclick="handleImageClick(this)">
+                    </div>
+                </div>
+                 <!-- Proyecto 1 -->
+                 <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img class="foto" src="img/betulla-6.jpg" alt="Proyecto 1" onclick="handleImageClick(this)">
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+    </section>
 
     <a target="_blank" href="https://icons8.com/icon/NAb5cx6yKB_A/serviola">favicon</a> icono de <a target="_blank"
         href="https://icons8.com">Icons8</a>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous">
+    </script>
+    <script>
+        function handleImageClick(image) {
+            image.classList.toggle('clicked');
+        }
+    </script>
 </body>
 
 </html>
