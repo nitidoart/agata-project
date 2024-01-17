@@ -103,7 +103,7 @@ h1 {
 
 .seccion-clara {
   color: black;
-  background-color: white;
+  /* background-color: white; */
 }
 
 .sobre-mi {
@@ -152,22 +152,13 @@ h1 {
 
 .custom-bg-color {
   background-color: #8CC63F;
-  /* Puedes añadir otros estilos según sea necesario */
 }
 
-/* Galeria */
 .galerias-recientes {
   padding: 40px;
   margin-top: 40px;
 }
 
-.galerias-recientes img {
-  height: 60%;
-  width: 60%;
-  padding: 10px;
-  display: block;
-  transition: all 0.2s ease;
-}
 
 .galeria-contenedor {
   padding-top: 60px;
@@ -187,10 +178,33 @@ h1 {
   flex-wrap: wrap;
 }
 
-.galeria img:hover {
-  width: 400px;
-  margin: 0%;
+/* Galeria y Testimonios */
+ .arbol {
+  background-image: url('img/arbol-3.jpg'); 
+  /* background-size: 100%;  */
+  background-repeat: no-repeat;
+  background-position: -50px;
+  /* height: 100vh; */
+  margin: 0;
+  padding: 0; 
+  background-attachment: fixed;
+} 
+
+
+/* Galeria */
+.galerias-recientes img {
+  height: 60%;
+  width: 60%;
+  padding: 10px;
+  display: block;
+  transition: transform 0.2s ease; /* Agrega una transición suave al efecto */
 }
+
+.galeria img:hover {
+  z-index: 1;
+  transform: scale(2.1); /* Aumenta la escala en un 10% al hacer hover */
+}
+
 /* .gato {
   width: 10px;
   margin: 10px;
