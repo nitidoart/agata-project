@@ -2,251 +2,296 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Ricardo Lopez">
-    <meta name="description" content="Sitio biografico de un gato">
-    <meta name="keyboards" content="HTML, CSS, JavaScript, React">
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <!-- Iconos de Bootstrap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
-    <!-- Metadatos -->
-    <title>Betulla</title>
-    <link rel="icon" type="image/x-icon" href="img/favicon.png">
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Ricardo Lopez">
+  <meta name="description" content="Sitio biografico de un gato">
+  <meta name="keyboards" content="HTML, CSS, JavaScript, React">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- Iconos de Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Metadatos -->
+  <title>Betulla</title>
+  <link rel="icon" type="image/x-icon" href="img/favicon.png">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
-    <!-- Barra de navegacion -->
-    <nav class="navbar navbar-expand-sm navbar-light">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
-                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbar-toggler">
-                <a class="navbar-brand d-flex justify-content-center align-items-center" href="#">
-                    <img class="imagen-nav" src="img/icons8-serviola.gif" alt="icono-gato">
-                </a>
-                <!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0"> -->
-                <ul class="navbar-nav d-flex justify-content-center align-items-center">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Sobre miau</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Proyectos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Testimonios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contactos</a>
-                    </li>
-                </ul>
+  <!-- Barra de navegacion -->
+  <nav class="navbar navbar-expand-sm navbar-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-toggler">
+        <a class="navbar-brand d-flex justify-content-center align-items-center" href="#">
+          <img class="imagen-nav" src="img/icons8-serviola.gif" alt="icono-gato">
+        </a>
+        <!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0"> -->
+        <ul class="navbar-nav d-flex justify-content-center align-items-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre miau</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#galerias">galerias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonios">Testimonios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contactos">Contactos</a>
+          </li>
+        </ul>
 
-            </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Seccion Hero -->
+  <section class="hero align-items-stretch">
+    <div class="hero-principal">
+      <img class="hero-imagen-perfil" src="img/betulla.png" alt="imagen-perfil-gato">
+      <h1>Ciao, sono Betulla</h1>
+      <h2>La realidad es solo una pequeña parte del vasto tapiz del espacio-tiempo.</h2>
+    </div>
+    <div class="hero-inferior">
+      <img alt="" src="img/jardin.jpg">
+    </div>
+  </section>
+
+  <!-- Sobre mi -->
+  <section id="sobre-mi" class="sobre-mi seccion-oscura">
+    <div class="contenedor">
+      <img src="img/ovni.png" alt="queso">
+      <h2 class="seccion-titulo">Conoscere a Betulla</h2>
+      <p class="seccion-texto">Desde los rincones secretos del cosmos, donde la luz colapsa para dar paso a
+        grandes galaxias, surge Betulla, descendiendo desde las constelaciones para tejer su propia leyenda en
+        la Tierra. Envuelta en un color blanco, que refleja la luz de sistemas solares lejanos y con movimientos
+        ajenos a las leyes de la gravedad terrestre, se desplaza con gracia entre dimensiones, siguiendo los
+        caprichosos senderos de la energía cuántica.</p>
+    </div>
+  </section>
+
+  <!-- Experiencia -->
+  <section id="experiencia" class="experiencia seccion-clara">
+    <div class="container text-center">
+      <div class="row">
+        <!-- Experiencia uno -->
+        <div class="columna col-12 col-md-4">
+          <img src="img/queso.png" alt="queso">
+          <p class="experiencia-titulo">Oír lo Invisible</p>
+          <p>Aunque sus oídos no captaban las vibraciones sonoras de este planeta, su sordera no fue un
+            impedimento, sino una puerta abierta a un mundo de vibraciones terrestres y conexiones
+            telepáticas que solo aquellos que la conocieron pudieron percibir.</p>
+          <div class="badges">
+            <span class="badge text-bg-secondary">Secondary</span>
+            <span class="badge text-bg-info">Info</span>
+            <span class="badge text-dark custom-bg-color">Warning</span>
+          </div>
         </div>
-    </nav>
-
-    <!-- Seccion Hero -->
-    <section class="hero align-items-stretch">
-        <div class="hero-principal">
-            <img class="hero-imagen-perfil" src="img/betulla.png" alt="imagen-perfil-gato">
-            <h1>Ciao, sono Betulla</h1>
-            <h2>La realidad es solo una pequeña parte del vasto tapiz del espacio-tiempo.</h2>
+        <!-- Experiencia dos -->
+        <div class="columna col-12 col-md-4">
+          <img src="img/fish.png" alt="queso" width="70">
+          <p class="experiencia-titulo">Travesuras Gravitacionales</p>
+          <p>Con sus juegos que desafían las leyes de la gravedad y de la física terrestre, convirtió cada día
+            en una aventura intergaláctica, recordándonos que, a veces, las mejores historias se encuentran
+            entre las huellas de las patas de una gata cósmica.</p>
+          <div class="badges">
+            <span class="badge text-bg-info">Info</span>
+            <span class="badge text-dark custom-bg-color">Warning</span>
+            <span class="badge text-bg-secondary">Secondary</span>
+          </div>
         </div>
-        <div class="hero-inferior">
-            <img alt="" src="img/jardin.jpg">
+        <!-- Experiencia tres -->
+        <div class="columna col-12 col-md-4">
+          <img src="img/queso.png" alt="queso">
+          <p class="experiencia-titulo">Portal Estelar</p>
+          <p>En sus largas horas de sueño, realmente se sumergía en los misterios que trasciende las fronteras
+            del
+            tiempo. Su cuerpo se convertía en un portal hacia los enigmas del universo, explorando mundos
+            lejanos y descifrando los secretos que solo ella podría revelar.</p>
+
+          <div class="badges">
+            <span class="badge text-dark custom-bg-color">Warning</span>
+            <span class="badge text-bg-secondary">Secondary</span>
+            <span class="badge text-bg-info">Info</span>
+          </div>
         </div>
-    </section>
+      </div>
+    </div>
 
-    <!-- Sobre mi -->
-    <section class="sobre-mi seccion-oscura">
-        <div class="contenedor">
-            <img src="img/ovni.png" alt="queso">
-            <h2 class="seccion-titulo">Conoscere a Betulla</h2>
-            <p class="seccion-texto">Desde los rincones secretos del cosmos, donde la luz colapsa para dar paso a
-                grandes galaxias, surge Betulla, descendiendo desde las constelaciones para tejer su propia leyenda en
-                la Tierra. Envuelta en un color blanco, que refleja la luz de sistemas solares lejanos y con movimientos
-                ajenos a las leyes de la gravedad terrestre, se desplaza con gracia entre dimensiones, siguiendo los
-                caprichosos senderos de la energía cuántica.</p>
+  </section>
+
+  <!-- Galeria -->
+  <section id="galerias" class="galerias-recientes seccion-clara d-flex flex-column">
+    <h2 class="seccion-titulo texto-negro">Diario de una gata viajera</h2>
+    <h3 class="seccion-descripcion">Estos son algunos momentos de su aventura en el planeta azul...</h3>
+    <!-- Galeria de galerias -->
+    <div class="container text-center galerias-contenedor">
+      <div class="contenedor-galerias">
+        <!-- foto-gato -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="galeria">
+            <img class="foto" src="img/betulla-1.jpg" alt="foto-gato">
+          </div>
         </div>
-    </section>
-
-    <!-- Experiencia -->
-    <section class="experiencia seccion-clara">
-        <div class="container text-center">
-            <div class="row">
-                <!-- Experiencia uno -->
-                <div class="columna col-12 col-md-4">
-                    <img src="img/queso.png" alt="queso">
-                    <p class="experiencia-titulo">Oír lo Invisible</p>
-                    <p>Aunque sus oídos no captaban las vibraciones sonoras de este planeta, su sordera no fue un
-                        impedimento, sino una puerta abierta a un mundo de vibraciones terrestres y conexiones
-                        telepáticas que solo aquellos que la conocieron pudieron percibir.</p>
-                    <div class="badges">
-                        <span class="badge text-bg-secondary">Secondary</span>
-                        <span class="badge text-bg-info">Info</span>
-                        <span class="badge text-dark custom-bg-color">Warning</span>
-                    </div>
-                </div>
-                <!-- Experiencia dos -->
-                <div class="columna col-12 col-md-4">
-                    <img src="img/fish.png" alt="queso" width="70">
-                    <p class="experiencia-titulo">Travesuras Gravitacionales</p>
-                    <p>Con sus juegos que desafían las leyes de la gravedad y de la física terrestre, convirtió cada día
-                        en una aventura intergaláctica, recordándonos que, a veces, las mejores historias se encuentran
-                        entre las huellas de las patas de una gata cósmica.</p>
-                    <div class="badges">
-                        <span class="badge text-bg-info">Info</span>
-                        <span class="badge text-dark custom-bg-color">Warning</span>
-                        <span class="badge text-bg-secondary">Secondary</span>
-                    </div>
-                </div>
-                <!-- Experiencia tres -->
-                <div class="columna col-12 col-md-4">
-                    <img src="img/queso.png" alt="queso">
-                    <p class="experiencia-titulo">Portal Estelar</p>
-                    <p>En sus largas horas de sueño, realmente se sumergía en los misterios que trasciende las fronteras
-                        del
-                        tiempo. Su cuerpo se convertía en un portal hacia los enigmas del universo, explorando mundos
-                        lejanos y descifrando los secretos que solo ella podría revelar.</p>
-
-                    <div class="badges">
-                        <span class="badge text-dark custom-bg-color">Warning</span>
-                        <span class="badge text-bg-secondary">Secondary</span>
-                        <span class="badge text-bg-info">Info</span>
-                    </div>
-                </div>
-            </div>
+        <!-- foto 2 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="galeria">
+            <img class="foto" src="img/betulla-2.jpg" alt="foto-gato">
+          </div>
+        </div>
+        <!-- foto 3 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="galeria">
+            <img class="foto" src="img/betulla-3.jpg" alt="foto-gato">
+          </div>
+        </div>
+        <!-- foto 4 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="galeria">
+            <img class="foto" src="img/betulla-4.jpg" alt="foto-gato">
+          </div>
+        </div>
+        <!-- foto 5 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="galeria">
+            <img class="foto" src="img/betulla-5.jpg" alt="foto-gato">
+          </div>
+        </div>
+        <!-- foto 6 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="galeria">
+            <img class="foto" src="img/betulla-6.jpg" alt="foto-gato">
+          </div>
         </div>
 
-    </section>
 
-    <!-- Proyectos -->
-    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
-        <h2 class="seccion-titulo texto-negro">Diario de una gata viajera</h2>
-        <h3 class="seccion-descripcion">Estos son algunos momentos de su aventura en el planeta azul...</h3>
-        <!-- Galeria de Proyectos -->
-        <div class="container text-center proyectos-contenedor">
-            <div class="contenedor-proyectos">
-                <!-- Proyecto 1 -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="proyecto">
-                        <img class="foto" src="img/betulla-1.jpg" alt="Proyecto 1" onclick="handleImageClick(this)">
-                    </div>
-                </div>
-                 <!-- Proyecto 1 -->
-                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="proyecto">
-                        <img class="foto" src="img/betulla-2.jpg" alt="Proyecto 1" onclick="handleImageClick(this)">
-                    </div>
-                </div>
-                 <!-- Proyecto 1 -->
-                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="proyecto">
-                        <img class="foto" src="img/betulla-3.jpg" alt="Proyecto 1" onclick="handleImageClick(this)">
-                    </div>
-                </div>
-                 <!-- Proyecto 1 -->
-                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="proyecto">
-                        <img class="foto" src="img/betulla-4.jpg" alt="Proyecto 1" onclick="handleImageClick(this)">
-                    </div>
-                </div>
-                 <!-- Proyecto 1 -->
-                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="proyecto">
-                        <img class="foto" src="img/betulla-5.jpg" alt="Proyecto 1" onclick="handleImageClick(this)">
-                    </div>
-                </div>
-                 <!-- Proyecto 1 -->
-                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="proyecto">
-                        <img class="foto" src="img/betulla-6.jpg" alt="Proyecto 1" onclick="handleImageClick(this)">
-                    </div>
-                </div>
-                
+      </div>
+    </div>
+    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+      <button type="button" class="btn btn-info">
+        Ver mi portafolio
+        <i class="bi bi-arrow-right-circle-fill"></i>
+      </button>
+    </a>
+  </section>
 
-            </div>
-        </div>
-        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
-            <button type="button" class="btn btn-info">
-              Ver mi portafolio
-              <i class="bi bi-arrow-right-circle-fill"></i>
-            </button>
-          </a>
-    </section>
+  <!-- Testimonios -->
+  <section id="testimonios" class="testimonios seccion-clara">
+    <h2 class="seccion-titulo">Testimonios</h2>
+    <h3 class="seccion-descripcion">Estos son algunos testimonios de avistamientos...</h3>
 
-     <!-- Testimonios -->
-     <section id="testimonios" class="testimonios seccion-clara">
-        <h2 class="seccion-titulo">Testimonios</h2>
-        <h3 class="seccion-descripcion">Estos son algunos testimonios de mis clientes...</h3>
-        
-        <!-- Carrusel -->
-        <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="container">
-                <img class="testimonio-imagen rounded-circle" src="img/cliente1.png" alt="galaga">
-                <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
-                <div class="testimonio-info">
-                  <p class="cliente">Gino</p>
-                  <p class="cargo">Gerente de proyectos en DesarrolloWeb</p>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="container">
-                <img class="testimonio-imagen rounded-circle" src="img/cliente2.png" alt="galaga">
-                <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
-                <div class="testimonio-info">
-                  <p class="cliente">Nora</p>
-                  <p class="cargo">Gerente de DiseñaMiPáginaWeb</p>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="container">
-                <img class="testimonio-imagen rounded-circle" src="img/cliente3.png" alt="galaga">
-                <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
-                <div class="testimonio-info">
-                  <p class="cliente">Leonardo</p>
-                  <p class="cargo">Director de AprendeAProgramar</p>
-                </div>
-              </div>
+    <!-- Carrusel -->
+    <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="img/cliente1.png" alt="galaga">
+            <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna.
+              Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+            <div class="testimonio-info">
+              <p class="cliente">Fulanita</p>
+              <p class="cargo">Italia</p>
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Anterior</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Siguiente</span>
-          </button>
         </div>
-      </section>
+        <div class="carousel-item">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="img/cliente2.png" alt="galaga">
+            <p class="testimonio-texto">Con su presencia descubrimos que la realidad es solo una pequeña parte del vasto
+              tapiz del espacio-tiempo.</p>
+            <div class="testimonio-info">
+              <p class="cliente">Riccio</p>
+              <p class="cargo">En algún bosque del Piemonte</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="img/cliente3.png" alt="galaga">
+            <p class="testimonio-texto">La magia de lo desconocido se revela en sus huellas, una gata que ha viajado a
+              través de las estrellas para compartir su luz con nosotros.
+            </p>
+            <div class="testimonio-info">
+              <p class="cliente">Ricardo</p>
+              <p class="cargo">Desde una roca</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contactos" class="contacto seccion-oscura">
+    <div class="container">
+      <div class="container text-center rectangulo d-flex justify-content-evenly">
+        <div class="row">
+          <div class="col-12 col-md-8 seccion-titulo" style="font-size: 2.2em;">
+            <p>¡Buen viaje de retorno cósmico Betulla!</p>
+          </div>
+          <div class="col-12 col-md-4 descripcion">
+            <img src="img/betulla-navidad.jpg" alt="gato-navidad">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pie de pagina (footer) -->
+  <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+    <img class="footer-logo" src="img/unriccio.png" alt="avatar de un erizo">
+    <p class="footer-texto text-center">Diseño atractivo, programación impecable.</p>
+    <p style="letter-spacing: 2px; text-align: center;">Diseño y desarrollo soluciones web que impulsan tu marca.
+      <br>¿Tienes una idea? Creemos un galeria juntos.</p>
+    <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+
+      <a href="https://github.com/nitidoart" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/josericardolopezsierra" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <a href="https://www.behance.net/nitidoart" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-behance"></i>
+      </a>
+      <a href="mailto:wisest.styler_0h@icloud.com" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-envelope"></i>
+      </a>
+    </div>
+    <div class="derechos-de-autor">Creado por Ricardo López (2024) &#169;</div> <!-- character entities -->
+  </footer>
 
 
-    <a target="_blank" href="https://icons8.com/icon/NAb5cx6yKB_A/serviola">favicon</a> icono de <a target="_blank"
-        href="https://icons8.com">Icons8</a>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous">
+  <a target="_blank" href="https://icons8.com/icon/NAb5cx6yKB_A/serviola">favicon</a> icono de <a target="_blank"
+    href="https://icons8.com">Icons8</a>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
     </script>
-    <script>
-        function handleImageClick(image) {
-            image.classList.toggle('clicked');
-        }
-    </script>
+  <!-- <script>
+    function handleImageClick(image) {
+      image.classList.toggle('clicked');
+    }
+  </script> -->
 </body>
 
 </html>
