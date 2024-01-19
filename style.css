@@ -50,6 +50,25 @@ h1 {
   background-color: #E6E6E6;
 }
 
+#button.navbar-toggler {
+  background-color: white;
+}
+
+#icon.navbar-toggler {
+  background-color: none;
+  border: none;
+}
+
+#icon i{
+  font-size: 1.6em; 
+  color: #21B8FF;
+}
+
+.container-menu-botton {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .navbar-collapse {
   align-items: center;
   justify-content: space-between;
@@ -179,16 +198,16 @@ h1 {
 }
 
 /* Galeria y Testimonios */
- .arbol {
-  background-image: url('img/arbol-3.jpg'); 
+.arbol {
+  background-image: url('img/arbol-3.jpg');
   /* background-size: 100%;  */
   background-repeat: no-repeat;
   background-position: -50px;
   /* height: 100vh; */
   margin: 0;
-  padding: 0; 
+  padding: 0;
   background-attachment: fixed;
-} 
+}
 
 
 /* Galeria */
@@ -197,12 +216,14 @@ h1 {
   width: 60%;
   padding: 10px;
   display: block;
-  transition: transform 0.2s ease; /* Agrega una transición suave al efecto */
+  transition: transform 0.2s ease;
+  /* Agrega una transición suave al efecto */
 }
 
 .galeria img:hover {
   z-index: 1;
-  transform: scale(2.1); /* Aumenta la escala en un 10% al hacer hover */
+  transform: scale(2.1);
+  /* Aumenta la escala en un 10% al hacer hover */
 }
 
 /* .gato {
@@ -289,7 +310,7 @@ h1 {
   font-size: 1.2rem;
 }
 
-.descripcion img{
+.descripcion img {
   width: 200px;
 }
 
@@ -334,7 +355,7 @@ footer {
 
 .iconos-redes-sociales a:hover {
   background-color: #000D26;
-  border: 2px solid rgb(255, 255, 255); 
+  border: 2px solid rgb(255, 255, 255);
 }
 
 .iconos-redes-sociales a:hover i {
